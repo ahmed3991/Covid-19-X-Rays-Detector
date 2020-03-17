@@ -59,7 +59,7 @@ $ python app.py
 Open http://localhost:5000 and have fun. :smiley:
 
 <p align="center">
-  <img src="screenshot.gif" height="480px" alt="">
+  <img src="/static/screenshot.gif" height="480px" alt="">
 </p>
 
 ------------------
