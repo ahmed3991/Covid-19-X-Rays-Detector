@@ -1,6 +1,8 @@
-tensorflow
-flask
+Werkzeug
+Flask
 numpy
-pandas
-Pillow
-opencv-python
+Keras
+gevent
+pillow
+h5py
+tensorflow
