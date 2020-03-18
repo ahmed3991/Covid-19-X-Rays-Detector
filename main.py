@@ -97,8 +97,8 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80, debug=True)
+    #app.run(host='0.0.0.0', port=80, debug=True)
 
     #Serve the app with gevent
-    #http_server = WSGIServer(('0.0.0.0', 5000), app)
-    #http_server.serve_forever()
+    http_server = WSGIServer(('0.0.0.0', 80), app)
+    http_server.serve_forever()
