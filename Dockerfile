@@ -7,4 +7,5 @@ ADD . /app
 WORKDIR /app
 
 EXPOSE 80
+
 CMD [ "python" , "main.py"]
