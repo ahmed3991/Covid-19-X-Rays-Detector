@@ -1,0 +1,10 @@
+runtime: python36
+
+
+handlers:
+# Matches requests to /images/... to files in static/images/...
+- url: /static
+  static_dir: /static
+
+- url: /.*
+  script: api.app
