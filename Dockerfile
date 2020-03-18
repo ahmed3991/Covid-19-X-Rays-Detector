@@ -6,5 +6,5 @@ RUN pip install -r /requirements.txt
 ADD . /app
 WORKDIR /app
 
-EXPOSE 5000
+EXPOSE 80
 CMD [ "python" , "app.py"]
