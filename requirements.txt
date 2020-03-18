@@ -6,3 +6,4 @@ gevent
 pillow
 h5py
 tensorflow
+gunicorn
