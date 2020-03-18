@@ -24,7 +24,7 @@ instance/
 
 # Custom data directory
 uploads/*
-notebooks
+#notebooks
 
 !uploads/README.md
 !models/README.md
