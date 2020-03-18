@@ -77,7 +77,7 @@ def predict():
         #print(request.files['file'])
 
         # Save the image to ./uploads
-        img.save("uploads/image.png")
+        #img.save("uploads/image.png")
 
         # Make prediction
         preds = model_predict(img, model)
