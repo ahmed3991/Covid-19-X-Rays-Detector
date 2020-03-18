@@ -1,10 +1,6 @@
 runtime: python36
 api_version: 1
-threadsafe: true
 
-libraries:
-- name: ssl
-  version: latest
 
 # [START handlers]
 handlers:
